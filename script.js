@@ -306,8 +306,8 @@ function checkAddress() {
     let result = document.getElementById("result");
 
     if (whitelist.includes(inputAddress)) {
-        result.innerHTML = "✅ Alamat Anda terdaftar dalam whitelist!";
+        result.innerHTML = "✅ Your address is registered in the Whitelist!";
     } else {
-        result.innerHTML = "❌ Alamat Anda TIDAK terdaftar.";
+        result.innerHTML = "❌ Your address is not registered.";
     }
 }
