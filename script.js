@@ -299,7 +299,7 @@ const whitelist = [
 "0xa5a9bD8F4d88571051eE5f2930347A5062B3C231",
 "0x5768bba7c184dff71da35910b9bd10434349fe1f",
 "0x6370704ce87dd25bda1e207849c8f22ff1afdefe",
-"0xd90d8c74545728cd8200C66084E36dC10aFdca40"
+"0xd90d8c74545728cd8200C66084E36dC10aFdca40" ];
 
 function checkAddress() {
     let inputAddress = document.getElementById("walletInput").value;
